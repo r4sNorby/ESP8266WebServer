@@ -10,8 +10,8 @@ DHT dht(DHTPIN, DHTTYPE);
 
 ESP8266WebServer server(80);
 
-const char* ssid = "NPF CrewLAN";
-const char* password = "jajegblivercrewtilnpf2020";
+const char* ssid = "";
+const char* password = "";
 
 void handleNotFound() {
   server.send(404, "text/html", "<p>404 Not found</p>");
